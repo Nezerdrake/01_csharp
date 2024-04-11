@@ -1,10 +1,12 @@
-﻿int n = 100;
-int i = 1;
-
-while (i <= n)
-{
-    // Console.WriteLine(i);
-    Console.Write(i);
-    Console.Write(' ');
-    i = i + 1;
-}
+﻿int a = 9;
+int b = 5;
+int c = 7;
+int max = a;
+      if (b > max){
+        max = b;
+      }
+      if (c > max){
+        max = c;
+      }
+      Console.WriteLine(max);
+        
